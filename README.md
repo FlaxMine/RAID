@@ -118,3 +118,99 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 После успешного создания нового физического тома, включив в него ранее созданный RAID массив - выполняем -vgdisplay system -v -pvs -vgs -lvs -a -o+devices
 
 ![](screenshots/thirdTask/8.JPG)
+
+![](screenshots/thirdTask/9.JPG)
+
+После перемещения данных со старого диска на новый. Выполняем -vgdisplay system -v -pvs -vgs -lvs -a -o+devices -lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
+
+![](screenshots/thirdTask/10.JPG)
+
+![](screenshots/thirdTask/11.JPG)
+
+![](screenshots/thirdTask/12.JPG)
+
+Изменение VG, удалив из него диск старого raid
+
+![](screenshots/thirdTask/13.JPG)
+
+В выводе команды pvs у /dev/md0 исчезли VG и Attr. В выводе команды vgs #PV - уменьшилось на 1, VSize, VFree - стали меньше
+
+![](screenshots/thirdTask/14.JPG)
+
+Добавляем новые диски
+
+![](screenshots/thirdTask/15.JPG)
+
+Скопируем таблицу разделов, установил grub
+
+![](screenshots/thirdTask/16.JPG)
+
+Изменение размера нового диска (второй раздел)
+
+![](screenshots/thirdTask/17.JPG)
+
+![](screenshots/thirdTask/18.JPG)
+
+![](screenshots/thirdTask/19.JPG)
+
+Перечитывание таблицы разделов
+
+![](screenshots/thirdTask/20.JPG)
+
+Добавление нового диска
+
+![](screenshots/thirdTask/21.JPG)
+
+Расширение кол-ва дисков в массиве до 2
+
+![](screenshots/thirdTask/22.JPG)
+
+Запуск fdisk /dev/sda
+
+![](screenshots/thirdTask/23.JPG)
+
+Таблица разделов
+
+![](screenshots/thirdTask/24.JPG)
+
+Расширение raid
+
+![](screenshots/thirdTask/25.JPG)
+
+--Вывод команды pvs --Расширение размера PV --Вывод команды pvs
+
+![](screenshots/thirdTask/26.JPG)
+
+Имена новых дисков
+
+![](screenshots/thirdTask/28.JPG)
+
+Создание raid
+
+![](screenshots/thirdTask/29.JPG)
+
+Создание нового PV, в этом PV группы с названием data, логического тома с размером всего свободного пространства var_log
+
+![](screenshots/thirdTask/30.JPG)
+
+Форматирование созданного раздела
+
+![](screenshots/thirdTask/31.JPG)
+
+Новое хранилище для логов
+
+![](screenshots/thirdTask/32.JPG)
+
+Синхронизация разделов и меняние их местами
+
+![](screenshots/thirdTask/33.JPG)
+
+Измнение /etc/fstab
+
+![](screenshots/thirdTask/34.JPG)
+
+Проверяем
+
+![](screenshots/thirdTask/35.JPG)
+
+
