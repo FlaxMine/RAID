@@ -30,8 +30,12 @@
 
 Данные об physical volumes, volume groups, logical volumes с помощью выше использованных команд.
 
-#Вывод
+# Вывод
 
 В данном задании выяснилось, как устанавливать OC Linux, настраивать LVM и RAID, и использовать такие команды, как:
 
 * fdisk -l *+pvs,lvs,vgs
+* lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINT
+* cat /proc/mdstat
+* grub-install /dev/XXX
+* dd if=/dev/xxx of=/dev/yyy
