@@ -62,3 +62,10 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 
 Устанавливаем grub на новый диск
 
+![](screenshots/secondTask/7.png)
+
+Проверяем, что все отлично работает!
+
+![](screenshots/secondTask/6.png)
+
+
