@@ -3,4 +3,5 @@
 Установка Linux
 
 
+![](screenshots/firstTask/1.png),
 ![](screenshots/firstTask/1.png)
