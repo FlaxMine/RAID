@@ -76,7 +76,7 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 * sfdisk -d /dev/XXXX | sfdisk /dev/YYY
 * mdadm --manage /dev/md0 --add /dev/YYY
 
-А так же изучил:
+А так же узнал, как:
 
 * Удалять диск ssd1
 * Проверять статус RAID-массива
