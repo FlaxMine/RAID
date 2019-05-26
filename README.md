@@ -87,5 +87,25 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 
 # Задание 3 (Добавление новых дисков и перенос раздела)
 
+После удаления диска - проверяем состояние
 
+![](screenshots/thirdTask/1.JPG)
+
+Добавляем новый диск
+
+![](screenshots/thirdTask/2.JPG)
+
+Копируем со старого диска на новый
+
+![](screenshots/thirdTask/3.JPG)
+
+Копирование /boot
+
+![](screenshots/thirdTask/4.JPG)
+
+Перемонтировка /boot на живой диск
+
+![](screenshots/thirdTask/5.JPG)
+
+Устанавливаем grub
 
