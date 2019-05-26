@@ -43,3 +43,7 @@
 После удаления и добавления нового - проверяем, появился ли он в системе или нет с помощью команды fdisk -l
 
 ![](screenshots/secondTask/1.png)
+
+С помощью команды sfdisk -d /dev/XXXX | sfdisk /dev/YYY копируем таблицы разделов на новый диск
+
+![](screenshots/secondTask/2.JPG)
