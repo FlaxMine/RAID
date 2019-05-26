@@ -19,5 +19,11 @@
 
 ![](screenshots/firstTask/8.png),
 
-![](screenshots/firstTask/9.png),
+![](screenshots/firstTask/9.png)
 
+
+Установка grub
+
+![](screenshots/firstTask/10.JPG),
+
+![](screenshots/firstTask/11.JPG)
