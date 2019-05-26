@@ -39,3 +39,6 @@
 * cat /proc/mdstat
 * grub-install /dev/XXX
 * dd if=/dev/xxx of=/dev/yyy
+
+
+# Задание 2 (Эмуляция отказа  одного из дисков)
