@@ -114,3 +114,7 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 Создание нового RAID-массива с включением только одного нового ssd диска
 
 ![](screenshots/thirdTask/7.JPG)
+
+После успешного создания нового физического тома, включив в него ранее созданный RAID массив - выполняем -vgdisplay system -v -pvs -vgs -lvs -a -o+devices
+
+![](screenshots/thirdTask/8.JPG)
