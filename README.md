@@ -109,3 +109,4 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 
 Устанавливаем grub
 
+![](screenshots/thirdTask/6.JPG)
