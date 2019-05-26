@@ -28,7 +28,7 @@
 
 ![](screenshots/firstTask/11.JPG)
 
-Данные об physical volumes, volume groups, logical volumes с помощью выше использованных команд.
+Данные об physical volumes, volume groups, logical volumes выводятся с помощью выше использованных команд.
 
 # Вывод
 
