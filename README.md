@@ -47,3 +47,18 @@
 С помощью команды sfdisk -d /dev/XXXX | sfdisk /dev/YYY копируем таблицы разделов на новый диск
 
 ![](screenshots/secondTask/2.JPG)
+
+mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд массив нового диска
+
+![](screenshots/secondTask/3.JPG)
+
+Результат cat /proc/mdstat/
+
+![](screenshots/secondTask/4.JPG)
+
+Синхронизация разделов
+
+![](screenshots/secondTask/5.JPG)
+
+Устанавливаем grub на новый диск
+
