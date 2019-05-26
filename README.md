@@ -139,78 +139,76 @@ mdadm --manage /dev/md0 --add /dev/YYY - добавление в рейд мас
 
 Добавляем новые диски
 
-![](screenshots/thirdTask/15.JPG)
+![](screenshots/thirdTask/15.png)
 
 Скопируем таблицу разделов, установил grub
 
-![](screenshots/thirdTask/16.JPG)
+![](screenshots/thirdTask/16.png)
 
 Изменение размера нового диска (второй раздел)
 
-![](screenshots/thirdTask/17.JPG)
+![](screenshots/thirdTask/17.png)
 
-![](screenshots/thirdTask/18.JPG)
+![](screenshots/thirdTask/18.png)
 
-![](screenshots/thirdTask/19.JPG)
+![](screenshots/thirdTask/19.png)
 
 Перечитывание таблицы разделов
 
-![](screenshots/thirdTask/20.JPG)
+![](screenshots/thirdTask/20.png)
 
 Добавление нового диска
 
-![](screenshots/thirdTask/21.JPG)
+![](screenshots/thirdTask/21.png)
 
 Расширение кол-ва дисков в массиве до 2
 
-![](screenshots/thirdTask/22.JPG)
+![](screenshots/thirdTask/22.png)
 
 Запуск fdisk /dev/sda
 
-![](screenshots/thirdTask/23.JPG)
+![](screenshots/thirdTask/23.png)
 
 Таблица разделов
 
-![](screenshots/thirdTask/24.JPG)
+![](screenshots/thirdTask/24.png)
 
 Расширение raid
 
-![](screenshots/thirdTask/25.JPG)
+![](screenshots/thirdTask/25.png)
 
 --Вывод команды pvs --Расширение размера PV --Вывод команды pvs
 
-![](screenshots/thirdTask/26.JPG)
+![](screenshots/thirdTask/26.png)
 
 Имена новых дисков
 
-![](screenshots/thirdTask/28.JPG)
+![](screenshots/thirdTask/28.png)
 
 Создание raid
 
-![](screenshots/thirdTask/29.JPG)
+![](screenshots/thirdTask/29.png)
 
 Создание нового PV, в этом PV группы с названием data, логического тома с размером всего свободного пространства var_log
 
-![](screenshots/thirdTask/30.JPG)
+![](screenshots/thirdTask/30.png)
 
 Форматирование созданного раздела
 
-![](screenshots/thirdTask/31.JPG)
+![](screenshots/thirdTask/31.png)
 
 Новое хранилище для логов
 
-![](screenshots/thirdTask/32.JPG)
+![](screenshots/thirdTask/32.png)
 
 Синхронизация разделов и меняние их местами
 
-![](screenshots/thirdTask/33.JPG)
+![](screenshots/thirdTask/33.png)
 
 Измнение /etc/fstab
 
-![](screenshots/thirdTask/34.JPG)
+![](screenshots/thirdTask/34.png)
 
 Проверяем
 
-![](screenshots/thirdTask/35.JPG)
-
-
+![](screenshots/thirdTask/35.png)
