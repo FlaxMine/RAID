@@ -1,6 +1,6 @@
 ﻿# Лабораторная работа №2 (RAID)
 
-Установка Linux
+Задание 1 (Установка ОС и настройка LVM, RAID)
 
 
 ![](screenshots/firstTask/1.png)
