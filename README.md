@@ -4,5 +4,4 @@
 
 
 ![](screenshots/firstTask/1.png),
-![](screenshots/firstTask/2.png),
-![](screenshots/firstTask/3.png)
+![](screenshots/firstTask/2.png)
